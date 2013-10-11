@@ -1,18 +1,18 @@
-span {
+#truisms span {
 	text-transform: uppercase;
 	font-family: Helvetica;
 	display: block;
 	text-align: center;
 }
 
-span.truism {
+#truisms span.truism {
 	
 	width: 100%;
 	margin-top: 100px;
 	font-size: 50px;
 }
 
-span.attribution {
+#truisms span.attribution {
 	width: 176px;
 	font-size: 13px;
 	border: 1px dashed black;
