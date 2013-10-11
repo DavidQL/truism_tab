@@ -1,0 +1,40 @@
+{
+  "name": "Truism tab",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "description": "See a Jenny Holzer Truism quote every time you open a new tab.",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+     "128": "icons/truism_tab.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/override/override.html"
+  },
+  "permissions": [
+    "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "http://*/*"
+      ],
+      "js": [
+        "js/jquery/jquery.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
