@@ -1,9 +1,26 @@
-span.truism {
+span {
 	text-transform: uppercase;
 	font-family: Helvetica;
-	width: 100%;
 	display: block;
 	text-align: center;
+}
+
+span.truism {
+	
+	width: 100%;
 	margin-top: 100px;
 	font-size: 50px;
+}
+
+span.attribution {
+	width: 176px;
+	font-size: 13px;
+	border: 1px dashed black;
+	border-width: 1px 0 1px 0;
+	padding: 10px 0;
+	opacity:0.2;
+	position: fixed;
+	left: 50%;
+	margin-left: -88px;
+	top: 275px;
 }
