@@ -1,6 +1,6 @@
 {
   "name": "Truism tab",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 2,
   "description": "See a Jenny Holzer Truism quote every time you open a new tab.",
   "homepage_url": "http://extensionizr.com",
